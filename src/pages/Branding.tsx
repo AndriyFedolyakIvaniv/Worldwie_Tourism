@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/branding.css'
 
 const html = `
@@ -452,7 +451,7 @@ const html = `
 </div>
 `;
 
-export default function Branding(): JSX.Element {
+export default function Branding() {
   return (
     <div>
       <div dangerouslySetInnerHTML={{ __html: html }} />
