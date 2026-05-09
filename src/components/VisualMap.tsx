@@ -26,7 +26,7 @@ export function VisualMap() {
         </article>
         <article className="visual-map-node">
           <span className="visual-map-kicker">B2B</span>
-          <h3>Partners</h3>
+          <h3>Aliats</h3>
           <p>Hotels, activitats i operadors arriben a una audiència segmentada.</p>
         </article>
       </div>
@@ -49,7 +49,7 @@ export function VisualMap() {
         <article className="visual-map-node visual-map-node-soft">
           <span className="visual-map-kicker">Resultat</span>
           <h3>Creixement</h3>
-          <p>Més activitat, més partners i més valor per a tot l’ecosistema del projecte.</p>
+          <p>Més activitat, més aliats i més valor per a tot l’ecosistema del projecte.</p>
         </article>
       </div>
     </div>

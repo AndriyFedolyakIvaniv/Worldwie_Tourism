@@ -19,7 +19,7 @@ export const homeStats: Stat[] = [
   { label: 'Usuaris registrats', value: '145K+' },
   { label: 'Viatges col·laboratius', value: '22K+' },
   { label: 'Creixement mensual', value: '18%' },
-  { label: 'Partners B2B actius', value: '96' },
+  { label: 'Aliats B2B actius', value: '96' },
 ]
 
 export const coreFeatures = [
@@ -40,7 +40,7 @@ export const corporateBenefits = [
   },
   {
     title: 'Model escalable',
-    text: 'La proposta combina monetització B2C premium i oportunitats B2B amb partners turístics.',
+    text: 'La proposta combina monetització B2C premium i oportunitats B2B amb aliats turístics.',
   },
 ]
 
@@ -54,7 +54,7 @@ export const corporateUseCases = [
     text: 'Usuaris que no tenen grup estable i busquen perfils compatibles segons dates i interessos.',
   },
   {
-    title: 'Partners del sector turístic',
+    title: 'Aliats del sector turístic',
     text: 'Hotels, activitats i operadors que volen arribar a una audiència segmentada i activa.',
   },
 ]
@@ -96,7 +96,7 @@ export const roadmap = [
   },
   {
     title: 'Fase 2 · Creixement',
-    text: 'Marketplace B2B, pagaments premium i sistema de valoracions.',
+    text: 'Mercat B2B, pagaments premium i sistema de valoracions.',
   },
   {
     title: 'Fase 3 · Expansió',
@@ -108,28 +108,28 @@ export const founders: Founder[] = [
   {
     name: 'Andriy Fedolyak',
     role: 'Co-fundador',
-    description: 'Co-fundador del projecte WTO amb enfoc en visio global i creixement del producte.',
+    description: 'Co-fundador del projecte WTO amb enfocament en visió global i creixement del producte.',
   },
   {
     name: 'Andrei Diaconu',
     role: 'Co-fundador',
-    description: 'Co-fundador amb focus en desenvolupament tecnologic i qualitat de l’experiencia d’usuari.',
+    description: 'Co-fundador amb enfocament en desenvolupament tecnològic i qualitat de l’experiència d’usuari.',
   },
   {
     name: 'Amadeo Caraman',
     role: 'Co-fundador',
-    description: 'Co-fundador centrat en model de negoci, aliances estratègiques i evolucio del projecte.',
+    description: 'Co-fundador centrat en model de negoci, aliances estratègiques i evolució del projecte.',
   },
   {
     name: 'Jordan Roig',
     role: 'Co-fundador',
-    description: 'Co-fundador orientat a l’execucio de la proposta digital i a la consolidacio de la comunitat.',
+    description: 'Co-fundador orientat a l’execució de la proposta digital i a la consolidació de la comunitat.',
   },
 ]
 
 export const pestel = [
   { title: 'Polític', text: 'Regulació europea sobre protecció de dades (GDPR) i facilitats del espai Schengen per a moviment intraeuropeu.' },
-  { title: 'Econòmic', text: 'Recuperació del turisme europeu post-COVID i volum de mercat favorable per a travel-tech.' },
+  { title: 'Econòmic', text: 'Recuperació del turisme europeu post-COVID i volum de mercat favorable per a la tecnologia turística.' },
   { title: 'Social', text: 'Creixement del turisme juvenil i demanda d\'experiències compartides i sostenibles.' },
   { title: 'Tecnològic', text: 'Adopció massiva de smartphones, APIs de pagaments i recomanacions basades en dades.' },
   { title: 'Ecològic', text: 'Pressió per reduir la petjada de carboni i interès per opcions de viatge més responsables.' },
@@ -139,7 +139,7 @@ export const pestel = [
 export const swot = {
   strengths: ['Model freemium atractiu', 'Proposta social i funcionalitats col·laboratives', 'Equip fundador amb experiència tecnològica'],
   weaknesses: ['Necessitat de massa crítica d\'usuaris', 'Alta inversió inicial en tecnologia'],
-  opportunities: ['Creixement del turisme post-pandemia', 'Partnerships B2B amb proveïdors locals'],
+  opportunities: ['Creixement del turisme post-pandèmia', 'Aliances B2B amb proveïdors locals'],
   threats: ['Competidors consolidats amb major pressupost', 'Canvis reguladors o macroeconòmics en el turisme'],
 }
 
@@ -148,8 +148,8 @@ export const competitors = ['TripAdvisor', 'Airbnb', 'Splitwise', 'Roadtrippers'
 export const marketing4P = [
   { title: 'Producte', text: 'App mòbil freemium per crear i gestionar viatges col·laboratius amb funcions premium.' },
   { title: 'Preu', text: 'Pla Freemium per a usuaris i plans Premium mensuals/anuals; tarifes B2B per a empreses.' },
-  { title: 'Distribució', text: 'App Stores (iOS/Android), PWA web i aliances amb universitats i partners locals.' },
-  { title: 'Promoció', text: 'Short-form video, influencers de viatge, ASO, program de referits i publicitat segmentada.' },
+  { title: 'Distribució', text: 'Botigues d’aplicacions (iOS/Android), PWA web i aliances amb universitats i aliats locals.' },
+  { title: 'Promoció', text: 'Vídeo curt, creadors de contingut de viatge, ASO, programa de referits i publicitat segmentada.' },
 ]
 
 export const financing = [

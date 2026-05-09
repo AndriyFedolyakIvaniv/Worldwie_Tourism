@@ -307,6 +307,26 @@ li {
   flex-wrap: wrap;
 }
 
+.brand-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.brand-logo {
+  width: 140px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(28,67,104,0.08);
+}
+
+.brand-logo-caption {
+  font-weight: 700;
+  color: var(--blue-900);
+  font-size: 0.95rem;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;

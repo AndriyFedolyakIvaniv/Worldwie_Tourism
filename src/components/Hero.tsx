@@ -1,6 +1,7 @@
 import { Button } from './Button'
 import { brand } from '../data/content'
 import { useViewMode } from '../context/ViewModeContext'
+import { BrandLogo } from './BrandLogo'
 
 export function Hero() {
   const { isPresentation } = useViewMode()
@@ -8,6 +9,7 @@ export function Hero() {
   return (
     <section className="hero fade-up">
       <p className="tag">{isPresentation ? 'Presentació interactiva del projecte' : 'Web corporativa de tecnologia turística'}</p>
+      <BrandLogo />
       <h1>
         {brand.name} <span>{brand.slogan}</span>
       </h1>
@@ -19,7 +21,7 @@ export function Hero() {
       <div className="hero-actions">
         <Button to="/idea">{isPresentation ? 'Veure el producte' : 'Explora la solució'}</Button>
         <Button to="/contact" variant="secondary">
-          {isPresentation ? 'Veure contacte i partners' : 'Contacta amb nosaltres'}
+          {isPresentation ? 'Veure contacte i aliats' : 'Contacta amb nosaltres'}
         </Button>
       </div>
     </section>

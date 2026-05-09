@@ -86,7 +86,7 @@ export default function Market() {
                 <p>Més usuaris generen més valor i fan créixer la proposta de manera natural.</p>
               </Card>
               <Card title="Canal B2B">
-                <p>Els partners turístics obtenen una via nova de captació i recomanació.</p>
+                <p>Els aliats turístics obtenen una via nova de captació i recomanació.</p>
               </Card>
             </div>
           </Section>

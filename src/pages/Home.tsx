@@ -37,7 +37,7 @@ export default function Home() {
             <div className="grid cols-2">
               {coreFeatures.map((feature) => (
                 <Card key={feature} title={feature}>
-                  <p>Una funcionalitat clau del prototip mínim viable amb enfoc mobile-first i orientació a comunitat.</p>
+                  <p>Una funcionalitat clau del prototip mínim viable amb enfocament mòbil i orientació a comunitat.</p>
                 </Card>
               ))}
             </div>
@@ -122,7 +122,7 @@ export default function Home() {
           <Section title="Mapa resumit de la web" subtitle="Una lectura ràpida del recorregut corporatiu del projecte.">
             <FlowMap
               title="De la presentació al contacte"
-              subtitle="Una ruta simple per explicar què és WTO i què pot aportar a un client o partner."
+              subtitle="Una ruta simple per explicar què és WTO i què pot aportar a un client o aliat."
               nodes={[
                 {
                   kicker: '01',

@@ -65,7 +65,7 @@ export default function Finance() {
 
           <Section title="Punt d’equilibri">
             <p className="lead fade-up">
-              El break-even operatiu s’estima entre finals de l’any 2 i inici de l’any 3, un cop
+              El punt d’equilibri operatiu s’estima entre finals de l’any 2 i inici de l’any 3, un cop
               consolidats els canals B2B i les cohorts recurrents del model premium.
             </p>
           </Section>

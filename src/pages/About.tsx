@@ -21,7 +21,7 @@ export default function About() {
             </p>
           </Section>
 
-          <Section title="Equip fundador" subtitle="Perfil startup tech orientat a execució (4 membres fundadors).">
+          <Section title="Equip fundador" subtitle="Perfil de startup tecnològica orientat a execució (4 membres fundadors).">
             <div className="grid cols-3">
               {founders.map((founder) => (
                 <Card key={founder.name} title={`${founder.name} · ${founder.role}`}>

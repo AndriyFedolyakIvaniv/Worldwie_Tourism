@@ -44,8 +44,8 @@ export default function Idea() {
               <Card title="Checklist compartit">
                 <p>Seguiment de documents, reserves i pendents abans de sortir.</p>
               </Card>
-              <Card title="Marketplace d’ofertes">
-                <p>Accés a promocions i partners turístics integrats dins l’experiència.</p>
+              <Card title="Mercat d’ofertes">
+                <p>Accés a promocions i aliats turístics integrats dins l’experiència.</p>
               </Card>
               <Card title="Xat i decisions en grup">
                 <p>Canal únic per votar activitats, validar pressupost i prendre decisions ràpides.</p>
@@ -84,7 +84,7 @@ export default function Idea() {
                 {
                   kicker: '05',
                   title: 'Valoració i millora',
-                  text: 'Feedback, valoracions i dades per millorar el matching i la personalització.',
+                  text: 'Retorn d’usuari, valoracions i dades per millorar el matching i la personalització.',
                 },
               ]}
             />
@@ -93,7 +93,7 @@ export default function Idea() {
           <Section title="Funcionalitats premium" subtitle="Capes addicionals de valor per incrementar retenció i monetització.">
             <div className="grid cols-3">
               <Card title="Recomanacions prioritàries">
-                <p>Ofertes destacades de partners verificats segons destí, perfil i dates del grup.</p>
+                <p>Ofertes destacades d’aliats verificats segons destí, perfil i dates del grup.</p>
               </Card>
               <Card title="Filtres avançats">
                 <p>Segmentació més precisa per compatibilitat social, ritme de viatge i nivell de despesa.</p>
@@ -176,7 +176,7 @@ export default function Idea() {
                 <p>Perfils i interacció social per trobar gent amb més seguretat.</p>
               </Card>
               <Card title="Més valor comercial">
-                <p>La plataforma obre espai per a ofertes i partners turístics.</p>
+                <p>La plataforma obre espai per a ofertes i aliats turístics.</p>
               </Card>
             </div>
           </Section>

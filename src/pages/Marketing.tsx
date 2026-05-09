@@ -23,14 +23,14 @@ export default function Marketing() {
 
           <Section title="Estratègia digital">
             <div className="grid cols-3">
-              <Card title="Short-form video">
+              <Card title="Vídeo curt">
                 <p>TikTok, Instagram i YouTube Shorts amb narratives de viatge real.</p>
               </Card>
-              <Card title="Influencers">
-                <p>Col·laboracions amb creadors nínxol travel per credibilitat i abast orgànic.</p>
+              <Card title="Creadors de contingut">
+                <p>Col·laboracions amb creadors de nínxol turístic per credibilitat i abast orgànic.</p>
               </Card>
-              <Card title="Referral system">
-                <p>Programa member-get-member amb incentius en avantatges i descomptes.</p>
+              <Card title="Sistema de referits">
+                <p>Programa de recomanació entre usuaris amb incentius en avantatges i descomptes.</p>
               </Card>
             </div>
           </Section>
@@ -80,7 +80,7 @@ export default function Marketing() {
           <Section title="Màrqueting resumit" subtitle="Una versió curta i comercial per a la web corporativa.">
             <div className="grid cols-2">
               <Card title="Producte i preu">
-                <p>App freemium amb opcions premium i plans per a aliats turístics.</p>
+                <p>Aplicació freemium amb opcions premium i plans per a aliats turístics.</p>
               </Card>
               <Card title="Promoció i canals">
                 <p>Instagram, TikTok, SEO i col·laboracions digitals per captar trànsit qualificat.</p>
