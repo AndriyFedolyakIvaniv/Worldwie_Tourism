@@ -21,7 +21,7 @@ export default function About() {
             </p>
           </Section>
 
-          <Section title="Equip fundador" subtitle="Perfil startup tech orientat a execució.">
+          <Section title="Equip fundador" subtitle="Perfil startup tech orientat a execució (4 membres fundadors).">
             <div className="grid cols-3">
               {founders.map((founder) => (
                 <Card key={founder.name} title={`${founder.name} · ${founder.role}`}>
@@ -67,8 +67,8 @@ export default function About() {
             <div className="grid cols-2">
               <Card title="Equip fundador">
                 <p>
-                  Joves emprenedors amb perfil tecnològic i orientació a producte, disseny i
-                  experiència d’usuari.
+                  Equip format per 4 cofundadors amb perfil tecnològic i orientació a producte,
+                  negoci i experiència d’usuari.
                 </p>
               </Card>
               <Card title="Proposta de valor">
@@ -77,6 +77,16 @@ export default function About() {
                   mostrar material intern o massa dens.
                 </p>
               </Card>
+            </div>
+          </Section>
+
+          <Section title="Equip fundador (4 membres)" subtitle="Les quatre persones impulsores del projecte WTO.">
+            <div className="grid cols-2">
+              {founders.map((founder) => (
+                <Card key={founder.name} title={`${founder.name} · ${founder.role}`}>
+                  <p>{founder.description}</p>
+                </Card>
+              ))}
             </div>
           </Section>
 

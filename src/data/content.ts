@@ -106,19 +106,24 @@ export const roadmap = [
 
 export const founders: Founder[] = [
   {
-    name: 'Clara Rius',
-    role: 'CEO & Strategy',
-    description: 'Especialista en crecimiento digital para travel-tech y partnerships europeos.',
+    name: 'Andriy Fedolyak',
+    role: 'Co-fundador',
+    description: 'Co-fundador del projecte WTO amb enfoc en visio global i creixement del producte.',
   },
   {
-    name: 'Pau Miret',
-    role: 'CPO & Product',
-    description: 'Experto en producto mobile, comunidades y experiencias colaborativas.',
+    name: 'Andrei Diaconu',
+    role: 'Co-fundador',
+    description: 'Co-fundador amb focus en desenvolupament tecnologic i qualitat de l’experiencia d’usuari.',
   },
   {
-    name: 'Lina Ortega',
-    role: 'CTO & Data',
-    description: 'Ingeniera de software con foco en escalabilidad, IA aplicada y analitica.',
+    name: 'Amadeo Caraman',
+    role: 'Co-fundador',
+    description: 'Co-fundador centrat en model de negoci, aliances estratègiques i evolucio del projecte.',
+  },
+  {
+    name: 'Jordan Roig',
+    role: 'Co-fundador',
+    description: 'Co-fundador orientat a l’execucio de la proposta digital i a la consolidacio de la comunitat.',
   },
 ]
 

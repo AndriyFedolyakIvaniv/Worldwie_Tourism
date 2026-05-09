@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
 
 :root {
   --blue-900: #1F4E79; /* branding --blue-dark */
@@ -12,7 +12,7 @@
   --text-soft: #8A8A8A; /* branding --gray */
   --line: rgba(0,0,0,0.08);
   --shadow: 0 14px 40px rgba(28, 67, 104, 0.12);
-  --font-display: 'Playfair Display', Georgia, serif;
+  --font-display: 'DM Sans', system-ui, sans-serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
 }
 
