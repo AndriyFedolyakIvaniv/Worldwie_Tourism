@@ -1,8 +1,14 @@
 import { Section } from '../components/Section'
+import { useViewMode } from '../context/ViewModeContext'
 
 export default function Contact() {
+  const { isPresentation } = useViewMode()
+
   return (
-    <Section title="Contacte" subtitle="Parlem de partnerships, inversio i creixement de WTO.">
+    <Section
+      title="Contacte"
+      subtitle={isPresentation ? 'Parlem d’aliats, inversió i presentacions del projecte.' : 'Parlem de clients, col·laboracions i oportunitats comercials.'}
+    >
       <div className="contact-grid">
         <form className="contact-form fade-up" onSubmit={(event) => event.preventDefault()}>
           <label htmlFor="name">Nom</label>
@@ -27,9 +33,19 @@ export default function Contact() {
 
         <aside className="contact-panel fade-up">
           <h3>WTO S.L.</h3>
-          <p>Email corporatiu: hello@wto-travel.com</p>
-          <p>Barcelona, Catalunya</p>
-          <p>LinkedIn / Instagram / X (simulat)</p>
+          {isPresentation ? (
+            <>
+              <p>Email corporatiu: hello@wto-travel.com</p>
+              <p>Barcelona, Catalunya</p>
+              <p>LinkedIn / Instagram / X / pitch deck / investors</p>
+            </>
+          ) : (
+            <>
+              <p>Email comercial: hello@wto-travel.com</p>
+              <p>Resposta orientada a clients i aliats turístics.</p>
+              <p>Barcelona, Catalunya</p>
+            </>
+          )}
         </aside>
       </div>
     </Section>

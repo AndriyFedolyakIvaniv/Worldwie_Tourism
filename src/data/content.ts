@@ -17,8 +17,8 @@ export const brand = {
 
 export const homeStats: Stat[] = [
   { label: 'Usuaris registrats', value: '145K+' },
-  { label: 'Viatges colaboratius', value: '22K+' },
-  { label: 'Crecimiento mensual', value: '18%' },
+  { label: 'Viatges col·laboratius', value: '22K+' },
+  { label: 'Creixement mensual', value: '18%' },
   { label: 'Partners B2B actius', value: '96' },
 ]
 
@@ -26,7 +26,82 @@ export const coreFeatures = [
   'Crear viatges compartits en minuts',
   'Trobar companys amb interessos similars',
   'Dividir despeses sense friccions',
-  'Xat grupal i checklist colaboratiu',
+  'Xat grupal i checklist col·laboratiu',
+]
+
+export const corporateBenefits = [
+  {
+    title: 'Més claredat per a l’usuari final',
+    text: 'Centralitzem la planificació i reduïm la fricció entre plataformes disperses.',
+  },
+  {
+    title: 'Creixement de comunitat',
+    text: 'La xarxa social de viatges fa que cada nou usuari millori l’experiència del següent.',
+  },
+  {
+    title: 'Model escalable',
+    text: 'La proposta combina monetització B2C premium i oportunitats B2B amb partners turístics.',
+  },
+]
+
+export const corporateUseCases = [
+  {
+    title: 'Viatges d’amics i escapades',
+    text: 'Grups que volen compartir allotjament, pressupost i activitats amb menys complicacions.',
+  },
+  {
+    title: 'Companys de viatge afins',
+    text: 'Usuaris que no tenen grup estable i busquen perfils compatibles segons dates i interessos.',
+  },
+  {
+    title: 'Partners del sector turístic',
+    text: 'Hotels, activitats i operadors que volen arribar a una audiència segmentada i activa.',
+  },
+]
+
+export const missionValues = [
+  {
+    title: 'Missió',
+    text: 'Connectar viatgers de tot Europa perquè organitzin viatges més accessibles, econòmics i enriquidors.',
+  },
+  {
+    title: 'Visió',
+    text: 'Convertir-nos en la principal xarxa social de viatges compartits d’Europa en un termini de 5 anys.',
+  },
+  {
+    title: 'Valors',
+    text: 'Col·laboració, sostenibilitat, inclusió, innovació i transparència.',
+  },
+]
+
+export const odsLinks = [
+  {
+    title: 'ODS 8',
+    text: 'Impulsa activitat econòmica local i dona visibilitat a petits operadors turístics.',
+  },
+  {
+    title: 'ODS 10',
+    text: 'Facilita l’accés a viatges compartits per a persones amb menys recursos.',
+  },
+  {
+    title: 'ODS 11 i 12',
+    text: 'Promou turisme més responsable, digital i amb menor impacte per persona.',
+  },
+]
+
+export const roadmap = [
+  {
+    title: 'Fase 1 · MVP',
+    text: 'Cerca de companys, creació de viatge, xat grupal i checklist col·laboratiu.',
+  },
+  {
+    title: 'Fase 2 · Creixement',
+    text: 'Marketplace B2B, pagaments premium i sistema de valoracions.',
+  },
+  {
+    title: 'Fase 3 · Expansió',
+    text: '5 idiomes, entrada a nous mercats europeus i recomanacions amb IA.',
+  },
 ]
 
 export const founders: Founder[] = [

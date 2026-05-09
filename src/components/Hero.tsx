@@ -1,21 +1,25 @@
 import { Button } from './Button'
 import { brand } from '../data/content'
+import { useViewMode } from '../context/ViewModeContext'
 
 export function Hero() {
+  const { isPresentation } = useViewMode()
+
   return (
     <section className="hero fade-up">
-      <p className="tag">Portal corporatiu startup travel-tech</p>
+      <p className="tag">{isPresentation ? 'Presentació interactiva del projecte' : 'Web corporativa de tecnologia turística'}</p>
       <h1>
         {brand.name} <span>{brand.slogan}</span>
       </h1>
       <p>
-        Connectem viatgers, partners i inversors en una plataforma social de viatges compartits
-        amb enfoc en tecnologia, comunitat i creixement sostenible.
+        {isPresentation
+          ? 'Una presentació completa del pla d’empresa, amb mercat, identitat de marca, model de negoci i full de ruta per mostrar el projecte amb profunditat.'
+          : 'La plataforma social de viatges compartits pensada per presentar l’empresa, el producte i la proposta de valor de manera clara i professional.'}
       </p>
       <div className="hero-actions">
-        <Button to="/idea">Explora el projecte</Button>
+        <Button to="/idea">{isPresentation ? 'Veure el producte' : 'Explora la solució'}</Button>
         <Button to="/contact" variant="secondary">
-          Contacta amb nosaltres
+          {isPresentation ? 'Veure contacte i partners' : 'Contacta amb nosaltres'}
         </Button>
       </div>
     </section>

@@ -297,7 +297,7 @@ const html = `
   <section id="veu">
     <span class="sec-label">07 — Veu i to de marca</span>
     <h2 class="sec-title">Personalitat de TripTrav</h2>
-    <p class="sec-body">La comunicació de TripTrav és propera, aventurera i inclusiva. Parlem de tu als nostres usuaris, usem un llenguatge senzill i inspiracional. La comunicació de WTO cap a inversors i partners és més formal i professional.</p>
+    <p class="sec-body">La comunicació de TripTrav és propera, aventurera i inclusiva. Parlem de tu als nostres usuaris, usem un llenguatge senzill i inspiracional. La comunicació de WTO cap a inversors i aliats és més formal i professional.</p>
     <div class="tone-grid">
       <div class="tone-pill"><div class="tone-dot" style="background:#1F4E79;"></div>Aventurer i inspirador</div>
       <div class="tone-pill"><div class="tone-dot" style="background:#F0A500;"></div>Proper i col·laboratiu</div>
@@ -309,7 +309,7 @@ const html = `
     <div class="example-grid">
       <div class="example-card ok-ex"><div class="example-label ok-ex">TripTrav B2C — Correcte</div><p>"Troba el teu proper company de viatge i explora Europa sense límits. Tot en una sola app."</p></div>
       <div class="example-card nok-ex"><div class="example-label nok-ex">TripTrav B2C — Incorrecte</div><p>"La nostra plataforma facilita la coordinació logística de grups de turistes a escala europea."</p></div>
-      <div class="example-card ok-ex"><div class="example-label ok-ex">WTO B2B — Correcte</div><p>"WTO (Worldwide Tourism Outreach, S.L.) ofereix als seus partners visibilitat directa davant milers de viatgers europeus actius."</p></div>
+      <div class="example-card ok-ex"><div class="example-label ok-ex">WTO empresarial — Correcte</div><p>"WTO (Worldwide Tourism Outreach, S.L.) ofereix als seus aliats visibilitat directa davant milers de viatgers europeus actius."</p></div>
       <div class="example-card nok-ex"><div class="example-label nok-ex">WTO B2B — Incorrecte</div><p>"TripTrav és una empresa fundada el 2025…" — Error: TripTrav és el producte; WTO és l'empresa.</p></div>
     </div>
   </section>
@@ -444,7 +444,7 @@ const html = `
     </div>
     <div class="footer-right">
       Manual d'Imatge Corporativa v1.0<br>
-      <small>Projecte IPO II · 2025 · Ús intern i partners</small>
+      <small>Projecte IPO II · 2025 · Ús intern i aliats</small>
     </div>
   </footer>
 
