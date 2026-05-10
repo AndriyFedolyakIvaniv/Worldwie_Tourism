@@ -1,4 +1,5 @@
 import '../styles/branding.css'
+import triptrav from '../assets/triptrav.svg'
 
 const html = `
 <div class="wrap">
@@ -455,6 +456,51 @@ export default function Branding() {
   return (
     <div>
       <div dangerouslySetInnerHTML={{ __html: html }} />
+      
+      {/* Presentació de l'asset de logo de TripTrav */}
+      <div style={{
+        maxWidth: '1000px',
+        margin: '60px auto',
+        padding: '0 20px',
+        textAlign: 'center'
+      }}>
+        <div style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          gap: '40px',
+          flexWrap: 'wrap',
+          padding: '60px',
+          backgroundColor: '#1F4E79',
+          borderRadius: '12px',
+          marginBottom: '20px'
+        }}>
+          <img 
+            src={triptrav} 
+            alt="Logo de TripTrav" 
+            style={{
+              height: '120px',
+              width: 'auto',
+              filter: 'drop-shadow(0 8px 16px rgba(0,0,0,0.2))'
+            }}
+          />
+          <div style={{ color: '#fff', textAlign: 'left' }}>
+            <div style={{ fontSize: '28px', fontWeight: '600', marginBottom: '12px' }}>
+              TripTrav<span style={{ color: '#F0A500' }}>.</span>
+            </div>
+            <div style={{ color: 'rgba(255,255,255,0.8)', fontSize: '16px' }}>
+              La plataforma social de viatges compartits
+            </div>
+          </div>
+        </div>
+        <div style={{ 
+          fontSize: '14px', 
+          color: '#8A8A8A',
+          fontStyle: 'italic'
+        }}>
+          Recurs de logo principal de TripTrav per a aplicacions digitals i impreses
+        </div>
+      </div>
     </div>
   )
 }
